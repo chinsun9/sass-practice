@@ -2,5 +2,6 @@
 @import "./header";
 
 .contact {
-  @include flexCenter(row, rgb(117, 117, 117));
+  @extend header;
+  width: 100vw - 10vw;
 }
